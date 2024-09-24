@@ -1,0 +1,190 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 6px 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.news-card {
+    margin-bottom: 20px;
+}
+.container{
+    text-align: right;
+}
+.text-right{
+    
+    font-size: smaller;
+    text-align:right !important;
+}
+.myheaher h1{
+    background-color:#F0F0F0 ;
+    font-family: Arial, sans-serif;
+    font-weight: 400px; 
+    font-size: 13px;
+    color: #1C2B4F;
+    font-style: normal;
+    height: 80px;
+    
+   
+}
+
+.myheaher img{
+    width:25px;
+    height: 25px;
+}
+.myheaher img,input{
+    position: relative;
+    bottom:80px;
+    right: 400px;
+
+   
+}
+
+.myheaher .login{
+    background-color:#1C2B4F ;
+    font-family: Arial, sans-serif;
+ 
+    line-height: 21px;
+    font-size: 14px;
+    color: white;
+  
+    height: 36px;
+    border-radius: 3px;
+    font-style: normal;
+
+}
+.myheaher .live{
+    background-color:#FF392E ;
+    font-family: Arial, sans-serif;
+    font-weight: 400px;
+    line-height: 21px;
+    font-size: 14px;
+    color: white;
+   
+    height: 36px;
+    border-radius: 3px;
+    font-style: normal;
+}
+.my-nav a{
+ 
+    font-family: Arial, sans-serif,Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+    line-height: 21px;
+    font-size:22px;
+    color: #1c2b4f;
+   line-height: 29px;
+    border-radius: 3px;
+    font-style: normal;
+   
+    
+}
+.my-nav a:hover{
+    color:#FF392E ;
+  
+}
+.mycard li a img{
+    width: 80px; height: 40px;
+    position: relative;
+    right:113px;
+    bottom:155px;
+    border-radius: 3px;
+}
+.mycard {
+    width:250px; 
+    height: 120px;
+}
+.mycard h5,a{
+    
+    font-family: Arial, sans-serif;
+    font-weight: 400px; 
+    font-size: 12px;
+    color: #7b7b8b;
+    font-style: normal;
+    height: 80px;
+    line-height: 18px;
+}
+.mycard h5,a:hover{
+color: #FFFFFF;
+
+}
+    .mycard h6{
+    
+        font-family: Arial, sans-serif;
+        font-weight: 400px; 
+        font-size: 9px;
+        color: #7b7b8b;
+        font-style: normal;
+        height: 18;
+        line-height: 18px;
+        
+    }
+
+   
+
+    .slider {
+        background-color:white;
+        color: #f7f7f7;
+        text-align: center;
+        padding: 4rem 1rem;
+        justify-content: center;
+        position: relative;
+        margin: auto;
+    }
+    
+   
+    .slider-content {
+        max-width: 800px;
+        height: 80px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+  
+    .slider-content img {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        margin-left: 4px;
+        padding: 10px;
+        border-radius: 10px ;
+        
+    
+    }
+    
+    
+    button.prev, button.next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 10;
+      
+    }
+    
+    button.prev {
+        left: 0;
+    }
+    
+    button.next {
+        right: 0;
+    }
